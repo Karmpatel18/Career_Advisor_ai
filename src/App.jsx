@@ -6,7 +6,7 @@ import Signup from './components/Signup';
 
 import './App.css';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Footer from './components/footer';
 import GetStarted from './components/Getstarted';
 import Assessment from './components/Assessment';
 import Roadmaps from './components/Roadmaps';
