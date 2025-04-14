@@ -48,7 +48,7 @@ const Signup = () => {
 
     try {
       console.log('Sending signup request...');
-      const response = await fetch("http://localhost:3001/api/v1/user/signup", {
+      const response = await fetch("https://backend-final-delta.vercel.app/api/v1/user/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
