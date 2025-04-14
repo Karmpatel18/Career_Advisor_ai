@@ -49,7 +49,7 @@ What would you like to start with?`
     setMessages(prev => [...prev, { role: 'user', content: userMessage }]);
 
     try {
-      const response = await fetch('http://localhost:3001/api/v1/chat', {
+      const response = await fetch('https://backendfinal-production-5260.up.railway.app/api/v1/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

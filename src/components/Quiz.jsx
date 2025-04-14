@@ -13,7 +13,7 @@ export default function QuizApp() {
     setLoading(true);
     setError("");
     try {
-      const res = await axios.post("http://localhost:3001/api/v1/quiz/generatequiz", { domain });
+      const res = await axios.post("https://backendfinal-production-5260.up.railway.app/api/v1/quiz/generatequiz", { domain });
       setQuestions(res.data.questions);
       setAnswers({});
     // eslint-disable-next-line no-unused-vars

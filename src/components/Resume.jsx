@@ -28,7 +28,7 @@ const Resume = () => {
       const formData = new FormData();
       formData.append('resume', selectedFile);
 
-      const response = await fetch('http://localhost:3001/api/v1/resume/analyze', {
+      const response = await fetch('https://backendfinal-production-5260.up.railway.app/api/v1/resume/analyze', {
         method: 'POST',
         body: formData,
       });
