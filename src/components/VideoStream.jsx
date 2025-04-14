@@ -20,7 +20,7 @@ const VideoStream = () => {
   // 3. Get the App ID from Project Management > Project List
   // 4. Generate a temporary token for testing
   const appId = '358bfbea39b4492dbe7b72973fc96129'; // Your App ID from Agora Console
-  const token = '007eJxTYPB+LcN5lpux5vzbcxlfzb9dvu1xO8K/KHB6ZwjngYmzMxIVGIxNLZLSklITjS2TTEwsjVKSUs2TzI0szY3Tki3NDI0s61b8Sm8IZGTgn/SMlZEBAkF8HoaS1OISheSMxLy81BwGBgCwByPH'; // Your temporary token
+  const token = '007eJxTYFBf9Y8v0vl2eMvD/5qRV02WLl01+fiDJ1O+ePa95y3o3lapwGBsapGUlpSaaGyZZGJiaZSSlGqeZG5kaW6clmxpZmhkue7An/SGQEaGnDA/JkYGCATxeRhKUotLFJIzEvPyUnMYGABZFCWX'; // Your temporary token
 
   useEffect(() => {
     if (!appId) {
